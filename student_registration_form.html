@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Regitration Form with JavaScript</title>
+    
+    <link rel="stylesheet" href="regitration web page css.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+
+    <body>
+
+        <script src="regitration web page javascript.js"></script>
+
+        <script src="beautiful.js"></script>
+
+        <marquee behavior="alternate" direction="right" id="mymarquee">
+
+            <h2 class="mymarqueecolor" onmouseover="change('&star; STUDENT INFORMATION FORM &star;')" id="beautiful">WELCOME TO STUDENT DESK</h2>
+
+        </marquee>
+
+        <form action="" method="dialog">
+
+            <table id="name" width="100%" cellpading="4" cellspacing="4">
+
+                <!-- <caption><h2 class="newcolor"> &star; STUDENT INFORMATION FORM &star; </h2></caption> -->
+
+                <thead>
+
+                    <tr>
+
+                        <th class="one" colspan="3">
+
+                            <h3> &bull; STUDENT PERSONAL DETAILS &bull; </h3>
+
+                        </th>
+
+                    </tr>
+                
+                </thead>
+                
+                <tbody>
+                
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label class="name3" for="input1">First Name:</label><br>
+                    
+                            <input id="input1" class="name2 yupp" type="txt" name="myname" placeholder="Enter Name" autofocus required size="40"><br>
+                        
+                            <span id="error1"></span>
+
+                        </td>
+                        
+                        <td class="name1">
+                        
+                            <label class="name3" for="input2">Middle Name:</label><br>
+                        
+                            <input id="input2" class="name2 yupp" type="txt" name="myname" placeholder="Enter Name" autofocus required size="40"><br>
+                            
+                            <span id="error2"></span>
+                        
+                        </td>
+                        
+                        <td class="name1">
+                        
+                            <label class="name3" for="input3">Last Name:</label><br>
+                        
+                            <input id="input3" class="name2 yupp" type="txt" name="myname" placeholder="Enter Name" autofocus required size="40"><br>
+                        
+                            <span id="error3"></span>
+                        
+                        </td>
+                
+                    </tr>
+                
+                    <tr>
+                    
+                        <td class="name1">
+                        
+                            <label class="name3" for="input4">Email ID:</label><br>
+                        
+                            <input id="input4" class="name2 yupp" type="email" name="myemail" placeholder="Enter Valid Email ID" autofocus required size="40"><br>
+                        
+                            <span id="error4"></span>
+                        
+                        </td>
+                        
+                        <td class="name1">
+                        
+                            <label class="name3" for="input5">Mobile Number:</label><br>
+                        
+                            <input id="input5" class="name2 yupp" value="+91" type="number" name="mynumber" placeholder="Enter Mobile Number" autofocus required size="40" maxlength="10"><br>
+                        
+                            <span id="error5"></span>
+                    
+                        </td>
+                        
+                        <td class="name1">
+                        
+                            <label class="name3">D.O.B:</label><br>
+                        
+                            <input id="date" class="name2 yupp" type="date" name="mydate" size="40">
+                            <br>
+                            <span id="para3"></span>
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1" id="rates">
+                    
+                            <label class="name3">Gender:</label><br>
+                    
+                            <input id="male" type="radio" name="mygender" value="Male">&nbsp; <label for="male">Male</label>
+                    
+                            <input id="female" type="radio" name="mygender" value="Female">&nbsp; <label for="female">Female</label>
+                    
+                            <input id="transgender" type="radio" name="mygender" value="Transgender">&nbsp; <label for="transgender">Transgender </label>
+                            <br>
+                            <span id="result"></span>
+
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="labeling" class="name3">Blood Group:</label><br>
+                    
+                            <select id="labeling" class="name2 yupp" name="blood Group" >
+                    
+                                <option></option>
+                    
+                                <option>A<sup>+</sup></option>
+                    
+                                <option>A<sup>-</sup></option>
+                    
+                                <option>B<sup>+</sup></option>
+                    
+                                <option>B<sup>-</sup></option>
+                    
+                                <option>AB<sup>+</sup></option>
+                    
+                                <option>AB<sup>-</sup></option>
+                    
+                                <option>O<sup>+</sup></option>
+                    
+                                <option>O<sup>-</sup></option>
+                    
+                            </select> <br>
+                            <span id="para2"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label class="name3">Time:</label><br>
+                    
+                            <input id="time" class="name2 yupp" type="time">
+                            <br>
+                            <span id="span1"></span>
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input27" class="name3">Religion</label><br>
+                    
+                            <input id="input27" class="name2 yupp" type="text" name="religion" placeholder="Enter Your Religion" required autofocus size="40"><br>
+                    
+                            <span id="error27"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input28" class="name3">Cast</label><br>
+                    
+                            <input id="input28" class="name2 yupp" type="text" name="cast" placeholder="Enter Your Cast" required autofocus size="40"><br>
+                    
+                            <span id="error28"></span>
+                    
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <th class="one" colspan="3">
+                    
+                            <h3> &bull; STUDENT PARENTS DETAILS  &bull; </h3>
+                    
+                        </th>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input6" class="oldcolor">Father Full Name:</label><br>
+                    
+                            <input id="input6" class="name2 yupp" type="txt" placeholder="Enter Father Full Name" autofocus required size="40"><br>
+                    
+                            <span id="error6"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input7" class="oldcolor">Father Occupation:</label><br>
+                    
+                            <input id="input7" class="name2 yupp" type="txt" placeholder="Enter Father Occupation" autofocus required size="40"><br>
+                    
+                            <span id="error7"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input8" class="oldcolor">Father Mobile Number:</label><br>
+                    
+                            <input id="input8" class="name2 yupp" type="number" placeholder="Enter Mobile Number" autofocus required><br>
+                    
+                            <span id="error8"></span>
+
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input9" class="oldcolor">Mother Full Name:</label><br>
+                    
+                            <input id="input9" class="name2 yupp" type="txt" placeholder="Enter Mother Full Name" autofocus required size="40"><br>
+                    
+                            <span id="error9"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input10" class="oldcolor">Moteher Occupation:</label><br>
+                    
+                            <input id="input10" class="name2 yupp" type="txt" placeholder="Enter Mother Occupation" autofocus required size="40"><br>
+                    
+                            <span id="error10"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input11" class="oldcolor">Mother Mobile Number:</label><br>
+                    
+                            <input id="input11" class="name2 yupp" type="number"
+                            placeholder="Enter Mobile Number" autofocus required><br>
+                    
+                            <span id="error11"></span>
+                    
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <th class="one" colspan="3">
+                    
+                            <h3> &bull; STUDENT PERMANENT ADDRESS DETAILS &bull; </h3>
+                    
+                        </th>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input12" class="name3">Permanent Address:</label><br>
+                    
+                            <textarea id="input12" class="name2 yupp" rows="2" cols="40" placeholder="Enter Address"></textarea><br>
+                    
+                            <span id="error12"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input13" class="name3">Town/City:</label><br>
+                    
+                            <input id="input13" class="name2 yupp" name="txt" placeholder="Enter City Name" autofocus required size="40"><br>
+                    
+                            <span id="error13"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input14" class="name3">Tal:</label><br>
+                    
+                            <input id="input14" class="name2 yupp" name="txt" placeholder="Enter Taluka Name" autofocus required size="40"><br>
+                    
+                            <span id="error14"></span>
+                    
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input15" class="name3">Dist:</label><br>
+                    
+                            <input id="input15" class="name2 yupp" type="txt" name="mydistric" placeholder="Enter Distric Name" autofocus required size="40"><br>
+                    
+                            <span id="error15"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input16" class="name3">Pin Code:</label><br>
+                    
+                            <input id="input16" class="name2 yupp" type="number" name="mypincode" placeholder="Enter PIN Code [0-9]" required autofocus size="40"><br>
+                    
+                            <span id="error16"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label class="name3">State:</label><br>
+                    
+                            <select id="Maharashtra" class="name2 yupp" name="mystate" >
+                    
+                                <option></option>
+                    
+                                <option>Andhra Pradesh</option>
+                    
+                                <option>Arunachal Pradesh</option>
+                    
+                                <option>Assam</option>
+                    
+                                <option>Bihar</option>
+                    
+                                <option>Chhattisgarh</option>
+                    
+                                <option>Goa</option>
+                    
+                                <option>Gujarat</option>
+                    
+                                <option>Haryana</option>
+                    
+                                <option>Himachal Pradesh</option>
+                    
+                                <option>Jharkhand</option>
+                    
+                                <option>Karnataka</option>
+                    
+                                <option>Kerala</option>
+                    
+                                <option>Madhya Pradesh</option>
+                    
+                                <option>Maharashtra</option>
+                    
+                                <option>Manipur</option>
+                    
+                                <option>Meghalaya</option>
+                    
+                                <option>Mizoram</option>
+                    
+                                <option>Nagaland</option>
+                    
+                                <option>Odisha</option>
+                    
+                                <option>Punjab</option>
+                    
+                                <option>Rajasthan</option>
+                    
+                                <option>Sikkim</option>
+                    
+                                <option>Tamil Nadu</option>
+                    
+                                <option>Telangana</option>
+                    
+                                <option>Tripura</option>
+                    
+                                <option>Uttar Pradesh</option>
+                    
+                                <option>Uttarakhand</option>
+                    
+                                <option>West Bengal</option>
+                    
+                            </select><br>
+                            <span id="paragraph"></span>
+                    
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input17" class="name3">Country:</label><br>
+                    
+                            <input id="input17" class="name2 yupp" type="txt" name="mycountry" placeholder="Enter Country Name" required autofocus size="40"><br>
+                    
+                            <span id="error17"></span>
+
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <th class="one" colspan="3">
+                    
+                            <h3> &bull; STUDENT CURRENT ADDRESS DETAILS &bull; </h3>
+                    
+                        </th>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input18" class="name3">Current Address:</label><br>
+                    
+                            <textarea id="input18" class="name2 yupp" rows="2" cols="40" placeholder="Enter Address"></textarea><br>
+                    
+                            <span id="error18"></span>
+                            
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input19" class="name3">Town/City:</label><br>
+                    
+                            <input id="input19" class="name2 yupp" name="txt" placeholder="Enter City Name" autofocus required size="40"><br>
+                    
+                            <span id="error19"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input20" class="name3">Tal:</label><br>
+                    
+                            <input id="input20" class="name2 yupp" name="txt" placeholder="Enter Taluka Name" autofocus required size="40"><br>
+                    
+                            <span id="error20"></span>
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input21" class="name3">Dist:</label><br>
+                    
+                            <input id="input21" class="name2 yupp" type="txt" name="mydistric" placeholder="Enter Distric Name" autofocus required size="40"><br>
+                    
+                            <span id="error21"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input22" class="name3">Pin Code:</label><br>
+                    
+                            <input id="input22" class="name2 yupp" type="number" name="mypincode" placeholder="Enter PIN Code [0-9]" required autofocus size="40"><br>
+                    
+                            <span id="error22"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label class="name3">State:</label><br>
+                    
+                            <select id="select" class="name2 yupp" name="mystate" >
+                    
+                                <option></option>
+                    
+                                <option>Andhra Pradesh</option>
+                    
+                                <option>Arunachal Pradesh</option>
+                    
+                                <option>Assam</option>
+                    
+                                <option>Bihar</option>
+                    
+                                <option>Chhattisgarh</option>
+                    
+                                <option>Goa</option>
+                    
+                                <option>Gujarat</option>
+                    
+                                <option>Haryana</option>
+                    
+                                <option>Himachal Pradesh</option>
+                    
+                                <option>Jharkhand</option>
+                    
+                                <option>Karnataka</option>
+                    
+                                <option>Kerala</option>
+                    
+                                <option>Madhya Pradesh</option>
+                    
+                                <option>Maharashtra</option>
+                    
+                                <option>Manipur</option>
+                    
+                                <option>Meghalaya</option>
+                    
+                                <option>Mizoram</option>
+                    
+                                <option>Nagaland</option>
+                    
+                                <option>Odisha</option>
+                    
+                                <option>Punjab</option>
+                    
+                                <option>Rajasthan</option>
+                    
+                                <option>Sikkim</option>
+                    
+                                <option>Tamil Nadu</option>
+                    
+                                <option>Telangana</option>
+                    
+                                <option>Tripura</option>
+                    
+                                <option>Uttar Pradesh</option>
+                    
+                                <option>Uttarakhand</option>
+                    
+                                <option>West Bengal</option>
+                    
+                            </select>
+                            <br>
+                            <span id="para1"></span>
+                    
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input23" class="name3">Country:</label><br>
+                    
+                            <input id="input23" class="name2 yupp" type="txt" name="mycountry" placeholder="Enter Country Name" required autofocus size="40"><br>
+                    
+                            <span id="error23"></span>
+                    
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <th class="one" colspan="3">
+                    
+                            <h3> &bull; STUDENT ADMISSION DETAILS &bull; </h3>
+                    
+                        </th>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input24" class="name3">Department:</label><br>
+                    
+                            <input id="input24" class="name2 yupp" type="txt" name="mydepartment" placeholder="Enter Department Name" required autofocus size="40"><br>
+                    
+                            <span id="error24"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label class="name3">Date of Admission:</label><br>
+                    
+                            <input id="date1" class="name2 yupp" type="date" name="myadmissiondate">
+                            <br>
+                            <span id="yes1"></span>
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label class="name3">Date of Leaving:</label><br>
+                    
+                            <input id="date2" class="name2 yupp" type="date" name="myleavingdate">
+                            <br>
+                            <span id="yes2"></span>
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td class="name1">
+                    
+                            <label for="input25" class="name3">Course Completion Year:</label><br>
+                    
+                            <input id="input25" class="name2 yupp" type="number" name="mycoursecompletionyear" placeholder="Enter Year"><br>
+                    
+                            <span id="error25"></span>
+                    
+                        </td>
+                    
+                        <td class="name1">
+                    
+                            <label for="input26" class="name3">Fee Paid:</label><br>
+                    
+                            <input id="input26" class="name2 yupp" type="number"
+                            name="myfee" placeholder="Enter Paid Fee"><br>
+                    
+                            <span id="error26"></span>
+                    
+                        </td>
+                    
+                    </tr>
+                
+                </tbody>
+            
+            </table><br>
+            
+            <center>
+            
+                <button id="name4" onclick="submit_button()">Submit</button>
+            
+            </center><br>
+            
+        </form>
+
+    </body>
+
+</html>

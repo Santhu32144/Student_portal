@@ -1,0 +1,134 @@
+body{
+    font-family: 'Playpen Sans', cursive;
+    background-color: #c7c6ff;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+#mymarquee{
+    font-family: 'Playpen Sans', cursive;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(141, 249, 141);
+}
+
+.mymarqueecolor{
+    font-family: 'Playpen Sans', cursive;
+    color: red;
+}
+
+#name{
+    font-family: 'Playpen Sans', cursive;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(231, 230, 241);
+    border: 2px solid darkgray;
+    box-sizing: border-box;
+}
+
+.name1{
+    font-family: 'Playpen Sans', cursive;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.name2{
+    font-family: 'Playpen Sans', cursive;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.name3{
+    font-family: 'Playpen Sans', cursive;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    color: blue;
+}
+
+.one{
+    font-family: 'Playpen Sans', cursive;
+    color: whitesmoke;
+    background-color: rgb(253, 106, 80);
+    border-radius: 10px;
+    border: 2px solid navy;
+}
+
+#two{
+    font-family: 'Playpen Sans', cursive;
+    color: blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+#name4{
+    font-family: 'Playpen Sans', cursive;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    margin: 10px;
+    background-color: lightgreen;
+    color: darkgreen;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: all 0.8s ease-in-out;
+}
+
+#name4:hover{
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    background-color: green;
+    color: whitesmoke;
+}
+
+.newcolor{
+    font-family: 'Playpen Sans', cursive;
+    color: navy;
+}
+
+.oldcolor{
+    font-family: 'Playpen Sans', cursive;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    color: blue;
+}
+
+.yupp{
+    font-family: 'Playpen Sans', cursive;
+    width: 75%;
+    background-color: lightblue;
+    transition: all 0.8s ease-in;
+}
+
+.yupp:hover{
+    transform: scale(1.1);
+    background-color: lightskyblue;
+
+}
+
+span{
+    font-family: 'Playpen Sans', cursive;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    color: darkgreen;
+    font-size: 13px;
+    font-weight: bold;
+}
+#para2{
+    color: darkgreen;
+}
